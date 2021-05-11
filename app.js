@@ -27,7 +27,7 @@ app.get('/', (req, res) => {
             <main>
               <div class="header">
                 <h2>Javascript Book Wishlist</h2>
-                <p>Do you ever wish you can find good books on javascript? <br> Do you wish that you can find the top list to read instead of searching yourself? <br> Here are some of the top 3 recommended books to check out! :) </p>
+                <p>Do you ever wish you can find good books on javascript? <br> Do you wish that you can find the top list to read instead of searching yourself? <br> Here are some of the top 4 recommended books to check out! :) </p>
               </div>
             <div class="bookgrid">
             ${bookgrid}
