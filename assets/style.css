@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(226, 221, 221);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(129, 16, 170);
+    color: white;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    flex: 1;
+    font-size: 1em;
+    margin: 1em;
+    text-align: center;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+
+nav a:hover {
+    color: rgb(185, 109, 230);
+}
+
+
+.header h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: purple;
+}
+
+.header p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgb(84, 56, 102);
+    text-align: center;
+    padding: 5px;
+}
+
+/* Grid */
+
+.bookgrid {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding: 2em 1em;
+    margin-top: 2em;
+}
+
+.book {
+    flex: 1 1 10%;
+    min-width: 300px;
+    border: 1px solid rgb(190, 62, 190);
+    color: rgb(185, 109, 230);
+    background-color: rgb(31, 30, 30);
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 10px;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.booktitle {
+    text-align: center;
+    max-width: 270px;
+    padding: 0px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .bookdetail {
+        flex-direction: column;
+    }
+    .bookimg {
+        flex-direction: row;
+    }
+}
+
+.bookdetail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5em 5em;
+}
+
+.bookinfo{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 1em 3em;
+}
+
+.bookinfo a{
+    color: rgb(73, 22, 73);
+}
+
+
